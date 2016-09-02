@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component>
+  <table action="add" table_name="#__assets_assets" storage_engine="" collation="utf8mb4_unicode_ci">
+    <field field_name="id" field_type="INT" field_length="11" is_autoincrement="1" index="primary" description=""/>
+    <field field_name="ordering" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="state" field_type="TINYINT" field_length="1" index="index" description=""/>
+    <field field_name="checked_out" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="checked_out_time" field_type="DATETIME" description=""/>
+    <field field_name="created_by" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="modified_by" field_type="INT" field_length="11" index="index" description=""/>
+    <field action="add" field_name="time_created" field_type="DATETIME" description=""/>
+    <field action="add" field_name="path" field_type="VARCHAR" field_length="255" description=""/>
+    <field action="add" field_name="type" field_type="INT" field_length="11" description=""/>
+    <field action="add" field_name="regex_pages" field_type="TEXT" description="Enter a regular expression for page matching and the asset will only be loaded on pages matching the pattern. &#13;&#10;&#13;&#10;Use a syntax starting with / indicating the root of your site."/>
+  </table>
+</component>
